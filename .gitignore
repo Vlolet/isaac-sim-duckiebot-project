@@ -1,10 +1,12 @@
-humble_ws/build
-humble_ws/install
-humble_ws/log
-jazzy_ws/build
-jazzy_ws/install
-jazzy_ws/log
-build_ws/jazzy
-build_ws/humble
+# ROS build files
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
 .vscode/
-.*.pyc
+.idea/
